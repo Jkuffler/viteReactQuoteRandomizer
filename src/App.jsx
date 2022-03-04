@@ -8,15 +8,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <p>Who said it?</p>
         <p>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
             count is: {count}
           </button>
         </p>
         <p>
-          Edit <code>App.jsx</code> and save to test HMR updates.
+          Hot modular replace overhead
         </p>
         <p>
           <a
